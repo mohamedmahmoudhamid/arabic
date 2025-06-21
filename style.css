@@ -312,11 +312,12 @@ body.dark-mode header {
     font-size: 2rem;
     margin-bottom: 1rem;
     position: relative;
+       padding:10px 0 ;
 
 }
 .details h2::before{
       content: "";
-    width: 10%;
+    width: 0%;
     transition: all .9s;
     position: absolute;
     height: 2px;
@@ -326,7 +327,7 @@ body.dark-mode header {
 
 .details h2::after{
     content: "";
-    width: 10%;
+    width: 0%;
     transition: all .5s;
     position: absolute;
     height: 2px;
